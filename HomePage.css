@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; 
+    width: auto;
+    margin-right: 10px;
+}
+
+.account-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav img {
+    height: 20px; 
+    width: auto; 
+}
+
+.left-nav {
+    margin-right: auto;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.main-section {
+    position: relative;
+}
+
+.main-section img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+li a:hover{
+    color: grey;
+}
+.italic-bold-text {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: xx-large;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.centered-nav {
+    text-align: center;
+}
+
+.centered-nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#midNav{
+    background-color: #fff;
+}
+
+.centered-nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.screen-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-side {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side img {
+    width: 48%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.right-side {
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.right-side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.additional-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.additional-section img {
+    width: 100%;
+    height: auto;
+}
+
+.additional-section .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.additional-section .section-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.additional-section .buttons {
+    margin-top: 468px;
+}
+
+
+
+.recommended-products {
+    text-align: center;
+    margin: 20px;
+}
+
+.product {
+    width: 22%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-description {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.buy-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+
+.looking-for-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar-container {
+    margin-top: 10px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name-container img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.menu-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-links .submenu {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.menu-links:hover .submenu {
+    display: block;
+}
+
+.footer-middle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.opening-hours {
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+}
+
+.follow-us p {
+    margin-right: 10px;
+}
+
+.follow-us img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-paragraph {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+.main-section {
+    position: relative;
+
+}
+
+@media (max-width: 850px) {
+    .main-section .overlay p {
+        font-size: 18px;
+    }
+
+    .main-section .overlay button {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 560px) {
+    header > .account-link  {
+        display: none;
+    }
+    
+    .main-section .overlay p {
+        font-size: 12px;
+    }
+
+}

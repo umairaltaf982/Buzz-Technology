@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+li a:hover{
+    color:grey;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-image-container {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.featured-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.featured-image-container .image-button {
+    position: absolute;
+    /* top: 60%; */
+    bottom: 0;
+    right: -20px; 
+    padding: 20px 40px;
+    font-size: 1.2em;
+    background-color: #0e0f0f;
+    color: white;
+    border: none; 
+    border-radius: 30px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10; 
+}
+
+.image-button:hover{
+    background-color: grey;;
+}
+.second-image-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.second-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.second-image-container .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: rgb(16, 16, 16);
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.second-image-container h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.second-image-container p {
+    font-size: 1em;
+    font-weight: 400;
+    max-width: 50%;
+}
+.second-image-container .deal-button {
+    padding: 15px 30px;
+    background-color: #0a0b0b; 
+    color: rgb(226, 221, 221);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .second-image-container .deal-button {
+        padding: 8px;
+    }
+    .featured-image-container .image-button {
+        transform: scale(0.8);
+    }
+}
+
+.second-image-container .deal-button:hover{
+    background-color: grey;
+}
+
+.best-sellers-gradient {
+    background: linear-gradient(to bottom, #000046, #03485b);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.best-sellers-gradient h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.best-sellers-gradient p {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.view-more {
+    text-align: right;
+    padding: 20px;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+}
+
+.view-more a {
+    color: grey;
+    text-decoration: none;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.image-row img {
+    width: 24.5%;
+    margin: 0 0.125%;
+    height: auto;
+}
+
+.color-blocks-container {
+    position: relative;
+    width: 100%;
+}
+
+.color-blocks-container div {
+    overflow: hidden;
+}
+
+.color-blocks-container img {
+    width: 100%;
+    display: block;
+}
+
+.block-text {
+    position: absolute;
+    width: 33.33%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:medium;
+}
+
+.block-text:hover{
+    color: rgb(93, 82, 21);
+}
+
+.block-text h2:hover{
+    color: #000046;
+}
+
+.block-text h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+#desktop {
+    top: 20px;
+    left: 0;
+    background-image: url('pur.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#accessories {
+    top: 20px;
+    left: 33.33%;
+    background-image: url('peach.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#speakers {
+    top: 20px;
+    left: 66.66%;
+    background-image: url('bluu.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.account-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 2px solid gray;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav img {
+    height: 20px;
+    width: auto;
+}
+
+#l-nav:hover{
+    background-color: grey;
+}
+
+.left-nav {
+    margin-right: auto;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.full-background {
+    background-image: url('skyBlue.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.centered-div {
+    background-color: white;
+    width: 128%;
+    max-width: 500px;
+    padding: 250px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name-container img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.menu-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-links .submenu {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.menu-links:hover .submenu {
+    display: block;
+}
+
+.footer-middle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.opening-hours {
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+}
+
+.follow-us p {
+    margin-right: 10px;
+}
+
+.follow-us img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-paragraph {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}

@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height of the logo as needed */
+    width: auto; /* Ensure the logo's width adjusts accordingly */
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+.account-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li a:hover{
+    color: grey;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav img {
+    height: 20px;
+    width: auto;
+}
+
+.left-nav {
+    margin-right: auto;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.full-background {
+    background-image: url('skyBlue.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.centered-div {
+    background-color: white;
+    width: 128%;
+    max-width: 550px;
+    padding: 250px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+}
+
+.right-centered-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32%;
+    border-radius: 10px;
+    right: 0;
+    background-color: #d3d3d3;
+}
+
+.left-centered-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 52%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.shopping-cart {
+    text-align: center;
+    padding-top: -4px;
+}
+
+.cart-heading {
+    color: #000;
+    font-size: 31px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.cart-item img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.product-info p {
+    margin: 0;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #333;
+}
+
+.quantity-input {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input input {
+    width: 48px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.product-price {
+    margin-left: auto;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-centered-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32%;
+    border-radius: 10px;
+    right: 0;
+    background-color: #d3d3d3;
+    padding: 40px;
+}
+
+.right-centered-div h2 {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-centered-div hr {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 15px 0;
+}
+
+.shipping-heading,
+.gift-code-heading,
+.total-amount-heading {
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 21px;
+    text-align: left;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.total-amount-text {
+    font-weight: bold;
+}
+
+.place-order-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.place-order-btn:hover {
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name-container img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.menu-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-links .submenu {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.menu-links:hover .submenu {
+    display: block;
+}
+
+.footer-middle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.opening-hours {
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+}
+
+.follow-us p {
+    margin-right: 10px;
+}
+
+.follow-us img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-paragraph {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
